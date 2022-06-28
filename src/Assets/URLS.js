@@ -1,4 +1,4 @@
-export const BASEURL = "https://mobibackend.onrender.com"
+export const BASEURL = "https://backendmobi.herokuapp.com"
 
 //"https://mobibackend.onrender.com"
 
