@@ -20,7 +20,7 @@ export default function Home() {
  const [flag , setFlag] = useState(false)
   const dispatch = useDispatch()
   const categorias = useSelector((state) => state.productsReducer.categories)
-  React.useEffect(() => {
+  useEffect(() => {
     dispatch(updateCart())
     dispatch(getAllProducts())
     return () => {
