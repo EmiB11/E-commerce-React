@@ -73,7 +73,7 @@ export default function Home() {
     }
   }
 
-  if(!allProducts){
+  if(!allProducts.length){
     return <Loader/>
   }else{
   return (
